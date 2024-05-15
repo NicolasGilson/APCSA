@@ -6,6 +6,6 @@ public class App {
         System.out.println(cTOf.convertTemp(0));
         System.out.println(cTOf.convertTemp(2));
         System.out.println(cTOf.convertTemp(98));
-        System.out.println(cTOf.convertTemp(98));
+        System.out.println(cTOf.convertTemp(100));
     }
 }
