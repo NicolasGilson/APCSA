@@ -1,8 +1,9 @@
-## Getting Started
+## 5/15
+### Project 1 Accepted
+### Project 2  Accepted
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+
 
 The workspace contains two folders by default, where:
 
