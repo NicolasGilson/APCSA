@@ -3,8 +3,6 @@
 ### Project 2 Accepted
 
 
-wpoefwo 
-
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
