@@ -1,23 +1,17 @@
-import apple.MayWeekOne.cTOf;
-import apple.MayWeekOne.centInch;
+import apple.MayWeekOne.GCD;
 
 public class App {
     public static void main(String[] args) throws Exception 
     {
-        System.out.println("C to F");
-        for(int i =0; i<=100;i+=2)
+        System.out.println("GCD");
+        System.out.println("4,19 GCD:"+GCD.commonDiv(4, 19));
+        System.out.println("18,12 GCD:"+GCD.commonDiv(18, 12));
+        System.out.println("1,3 GCD:"+GCD.commonDiv(1, 3));
+        System.out.println("12,4 GCD:"+GCD.commonDiv(12, 4));
+        System.out.println("\nASCII");
+        for(int i =33;i<=126;i++)
         {
-            System.out.println(i+"   "+cTOf.convertTempC(i));
-        }
-        System.out.println("Centimetre to Inch");
-        for(int i =0; i<=10;i++)
-        {
-            System.out.println(i+"   "+centInch.toInch(i));
-        }
-        System.out.println("");
-        for(int i =0,c=0,f=20; i<=50;i++,c+=2,f+=5)
-        {
-            System.out.println(c+"   C:"+cTOf.convertTempC(c)+"     |     "+f+"    "+cTOf.convertTempF(f));
+            System.out.println((char)i);
         }
     }
 }
