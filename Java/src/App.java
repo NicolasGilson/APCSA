@@ -1,5 +1,6 @@
 import apple.MayWeekOne.ASCII;
 import apple.MayWeekOne.GCD;
+import apple.MayWeekOne.pyramid;
 import apple.MayWeekOne.smallestFactor;
 
 
@@ -18,5 +19,7 @@ public class App {
         smallestFactor.SF(33);
         smallestFactor.SF(187);
         smallestFactor.SF(1);
+        System.out.println("\nFNumber pyramid");
+        pyramid.pyramidNum(7);
     }
 }
