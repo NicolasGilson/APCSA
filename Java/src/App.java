@@ -1,4 +1,7 @@
+import apple.MayWeekOne.ASCII;
 import apple.MayWeekOne.GCD;
+import apple.MayWeekOne.smallestFactor;
+
 
 public class App {
     public static void main(String[] args) throws Exception 
@@ -9,9 +12,11 @@ public class App {
         System.out.println("1,3 GCD:"+GCD.commonDiv(1, 3));
         System.out.println("12,4 GCD:"+GCD.commonDiv(12, 4));
         System.out.println("\nASCII");
-        for(int i =33;i<=126;i++)
-        {
-            System.out.println((char)i);
-        }
+        ASCII.ASCT();
+        System.out.println("\nFactors of an integers");
+        smallestFactor.SF(120);
+        smallestFactor.SF(33);
+        smallestFactor.SF(187);
+        smallestFactor.SF(1);
     }
 }
