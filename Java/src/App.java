@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-import apple.MayWeekOne.TTT;
+import apple.MayWeekOne.HTB;
 
 
 public class App {
     public static void main(String[] args) throws Exception 
     {
-        Scanner scann = new Scanner(System.in);
+        /*Scanner scann = new Scanner(System.in);
         System.out.print("What is the first player's name: ");
         String p1 = scann.nextLine();
         System.out.print("What is the second player's name: ");
@@ -21,6 +21,7 @@ public class App {
             int column = scann.nextInt();
             gameOne.UserTurn(row, column);
         }
-        scann.close();
+        scann.close();*/
+        HTB.BinaryHT(8);
     }
 }
