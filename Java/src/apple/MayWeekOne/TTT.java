@@ -51,7 +51,7 @@ public class TTT
     public boolean check()
     {
         String w = p2;
-        if(turn == 1)
+        if(turn == -1)
         {
             w=p1;
         }
