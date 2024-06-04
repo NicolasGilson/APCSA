@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import apple.MayWeekOne.Musa;
+import apple.MayWeekOne.twoDsorter;
 
 
 public class App {
@@ -22,5 +23,6 @@ public class App {
             gameOne.UserTurn(row, column);
         }
         scann.close();*/
+        twoDsorter.sort(new int[][] {{3,2},{3,4},{3,2},{3,3},{3,6},{3,7},{3,8}});
     }
 }
