@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import apple.MayWeekOne.HTB;
+import apple.MayWeekOne.Musa;
 
 
 public class App {
@@ -22,6 +22,5 @@ public class App {
             gameOne.UserTurn(row, column);
         }
         scann.close();*/
-        HTB.BinaryHT(8);
     }
 }
