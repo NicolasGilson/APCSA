@@ -30,13 +30,13 @@ public class TTT
     }
     public void UserTurn(int row1, int column1)
     {
-        if(board[row1][column1] == (char)(67)||board[row1][column1] == (char)(65))
+        if(board[row1][column1] == (char)(88)||board[row1][column1] == (char)(79))
         {
             System.out.println("That turn is not valid");
         }
         else
         {
-            board[row1][column1] = (char)(turn+66);
+            board[row1][column1] = (char)((int)((turn*4.5)+83.5));
             turn*=-1;
             for(int p = 0; p < 3; p++)
             {
@@ -59,20 +59,23 @@ public class TTT
         {
             if(board[i][0]==board[i][1]&&board[i][0]==board[i][2]&&board[i][0]!='-')
             {
-                System.out.println(w);
+                System.out.println(w+" Wins!");
                 return true;
             }
             if(board[0][i]==board[1][i]&&board[0][i]==board[2][i]&&board[0][i]!='-')
             {
+                System.out.println(w+" Wins!");
                 return true;
             }
         }
         if(board[0][2] == board[1][1] && board[0][2] == board[2][0]&&board[0][2]!='-')
         {
+            System.out.println(w+" Wins!");
             return true;
         }
         if(board[0][0] == board[1][1] && board[0][2] == board[2][2]&&board[0][0]!='-')
         {
+            System.out.println(w+" Wins!");
             return true;
         }
         return false;
