@@ -12,15 +12,19 @@ public class TTT
     {
         this.p1 = p1;
         this.p2 = p2;
+        
         for(int i=0; i< 3; i++)
         {
+            
             for(int j=0; j<3; j++)
             {
                 board[i][j] = '-';
             }
         }
+        System.out.println(" 0 1 2");
         for(int p = 0; p < 3; p++)
         {
+            system.out.print(p+" ");
             for(int q = 0; q < 3; q++)
             {
                 System.out.print(board[p][q]);
@@ -38,14 +42,15 @@ public class TTT
         {
             board[row1][column1] = (char)((int)((turn*4.5)+83.5));
             turn*=-1;
-            for(int p = 0; p < 3; p++)
+           System.out.println(" 0 1 2");
+        for(int p = 0; p < 3; p++)
+        {
+            system.out.print(p+" ");
+            for(int q = 0; q < 3; q++)
             {
-                for(int q = 0; q < 3; q++)
-                {
-                    System.out.print(board[p][q]);
-                }
-                System.out.println();
+                System.out.print(board[p][q]);
             }
+            System.out.println();
         }
     }
     public boolean check()
